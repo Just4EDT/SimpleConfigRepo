@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8afbf10f-0648-479f-8d6d-b8cfc7c0a991">
+  <name>ОперативныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативный учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОперативныйУчет</picture>
+  </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ОтделыЗакупок</content>
+  <content>Catalog.ТорговыеТочки</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>Document.Перемещение</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Report.ДвиженияТоваров</content>
+  <content>Report.ВедомостьПоТоварамВТорговыхТочках</content>
+</mdclass:Subsystem>

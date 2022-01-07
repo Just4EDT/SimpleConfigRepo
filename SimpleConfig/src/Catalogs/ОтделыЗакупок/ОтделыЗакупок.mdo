@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff246738-2629-40ab-b69c-6568ca28b174">
+  <producedTypes>
+    <objectType typeId="f05d1f40-20f1-4e3e-8049-4ea05f7d4013" valueTypeId="60283b12-802c-49bf-ae19-5b86e9ab148f"/>
+    <refType typeId="c5b09fc9-1e79-4212-8103-13174a715692" valueTypeId="5caad841-aad8-476b-af37-6556a8407ed0"/>
+    <selectionType typeId="a76b538f-4b70-48f4-b8f7-f81cb81a1a68" valueTypeId="775c4021-ddc7-436a-9a3f-bea0c9951263"/>
+    <listType typeId="f5eff9b0-c766-4a01-b4ee-a15a738ccf74" valueTypeId="83a45af7-bafe-4c02-9773-ace74d3acbbd"/>
+    <managerType typeId="f0c88367-d6e9-4ba2-b9ca-edd628f74700" valueTypeId="dc37a1a3-a21d-4732-acb5-1f45c2158cbc"/>
+  </producedTypes>
+  <name>ОтделыЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отделы закупок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОтделыЗакупок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОтделыЗакупок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7b789f3f-476c-4530-bb0b-f0fa195f19bf">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
